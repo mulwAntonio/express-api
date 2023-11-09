@@ -10,12 +10,15 @@
     "start": "node ./dist/app.js"
   },
   "dependencies": {
+    "@lucia-auth/adapter-prisma": "^3.0.2",
     "@prisma/client": "^5.5.2",
     "bcrypt": "^5.1.1",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "lucia": "^2.7.3",
     "morgan": "^1.10.0",
-    "nodemailer": "^6.9.7"
+    "nodemailer": "^6.9.7",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
